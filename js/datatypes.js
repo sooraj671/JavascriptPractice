@@ -1,0 +1,12 @@
+let number = 'a'/2;
+console.log(typeof number);
+console.log('a'/2);
+console.log(typeof NaN);
+console.log(Number.MAX_VALUE);
+let big = 212n;
+console.log(typeof big);
+let obj = {};
+console.log(typeof obj);
+let num ;
+console.log(typeof num);
+console.log(typeof counter);
