@@ -34,3 +34,24 @@ let person2 = {
 }
 
 console.log(person2.contact)
+
+
+
+let book = {
+    name : 'readers',
+    price : 12.4,
+    
+    read(){
+        console.log('Reading Book');
+    },
+
+    getName(){
+        console.log('Book Name is '+ this.name);
+    
+    }
+
+}
+
+book.getName();
+book.read();
+
